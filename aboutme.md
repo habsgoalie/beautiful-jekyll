@@ -1,16 +1,16 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: A few things to know about me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Kevin Olson. I am Systems Engineer living in Southern NH and working just outside of Boston MA.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Some things I work on:
 
-What else do you need?
+- Automation with PowerShell
+- Leveraging Azure IaaS
+- Providing IT Services in a decentralized company
+- Expanding DevOps philosophy and mindset to Enterprise IT
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+When not at work, I enjoy spending time with my wife and 4 unschooled children, exploring the world, making frequent trips to Disney World and rooting for my beloved Montreal Canadiens hockey club. 
