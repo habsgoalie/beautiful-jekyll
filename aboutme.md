@@ -13,4 +13,4 @@ Some things I currently work on:
 - Providing IT Services in a decentralized company
 - Expanding DevOps philosophy and mindset to Enterprise IT
 
-When not at work, I enjoy spending time with my wife and 4 [unschooled](http://www.holtgws.com/whatisunschoolin.html) children, exploring the world, making frequent trips to Disney World and rooting for my beloved Montreal Canadiens hockey club. 
+When not at work, I enjoy spending time with my wife and 4 [unschooled](http://www.holtgws.com/whatisunschoolin.html) children. Together we love exploring the world, making frequent trips to Disney World, and [making music](https://www.facebook.com/Square-Circles-1797561170499644/) together. In addition I love rooting for my beloved Montreal Canadiens hockey club, and I even stand between the pipes myself and play goal for teams all over the commonwealth for [MA Hockey League](http://mahockeyleague.com/). 
