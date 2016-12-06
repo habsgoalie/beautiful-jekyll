@@ -87,7 +87,7 @@ url-pretty: "www.kevops.info"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "kevops"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-88566457-1"
 
 # Facebook App ID
 # fb_app_id: ""
