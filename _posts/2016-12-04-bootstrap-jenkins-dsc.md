@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Bootstrapping Jenkins Windows slaves with DSC 
-subtitle: A tasty recipe for serving up Windows Jenkins slaves using Chocolatey, Jenkins Swarm Client, and DSC!
+title: Bootstrapping Jenkins Windows slave nodes with DSC 
+subtitle: A tasty recipe for serving up Windows Jenkins nodes using Chocolatey, Jenkins Swarm Client, and DSC!
 comments: true
 ---
 
-About a year ago I was looking for a way to centralize and manage scheduled jobs across our environment. I was turned on to the idea of using [Jenkins](https://jenkins.io/), when I stumbled across this [awesome blog](https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1) courtesy of Matthew Hodgkins. Jenkins is an ubiquitous CI tool used in the world of DevOps for software build automation, but due to its modular plugin based design, its flexible enough to use as an automation engine for just about anything you want. 
+About a year ago I was looking for a way to centralize and manage scheduled jobs across our environment. I was turned on to the idea of using [Jenkins](https://jenkins.io/) after I stumbled across this [awesome blog](https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1) courtesy of Matthew Hodgkins. Jenkins is an ubiquitous CI tool used in the world of DevOps for software build automation, but due to its modular plugin based design, its flexible enough to use as an automation engine for just about anything you want. 
 
 ![alt text](/img/jenkinsLogo1.png "Nice Moustache!")
 
@@ -101,8 +101,8 @@ Here's what to add in your configuration script -
 ```powershell
 
     Import-DscResource -ModuleName cChoco
-    Import-DscResource -Module xCredSSP
-    Import-DscResource -Module cNtfsAccessControl
+    Import-DscResource -ModuleName xCredSSP
+    Import-DscResource -ModuleName cNtfsAccessControl
 ```
 
 The next part we will cover is using the cChoco resource. cChoco can install Chocolatey itself, and then be used to install additional Chocolatey packages. You just need to know the name, and optionally the version you want to install. My configuration example is how you would do this using the default community Chocolatey repository. I'm using packages that have passed public moderation by the Chocolatey community, but if you need extra security around your package sources, you can specify an internal Chocolatey repository as the source for your packages as well. I will write a future blog post on how to do this, but for now I will keep with the public feed to make things simple. Here's what the code looks like: 
